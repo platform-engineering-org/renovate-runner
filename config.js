@@ -12,6 +12,24 @@ module.exports = {
       "matchHost": "docker.io",
       "username": process.env.DOCKER_HUB_USERNAME,
       "password": process.env.DOCKER_HUB_TOKEN
+    },
+    {
+      "hostType": "docker",
+      "matchHost": "ghcr.io",
+      "username": process.env.GHCR_USERNAME,
+      "password": process.env.GHCR_PASSWORD
+    },
+    {
+      "hostType": "docker",
+      "matchHost": "quay.io",
+      "username": process.env.QUAY_USERNAME,
+      "password": process.env.QUAY_PASSWORD
+    },
+    {
+      "hostType": "docker",
+      "matchHost": "docker.elastic.co",
+      "username": process.env.DOCKER_ELASTIC_USERNAME,
+      "password": process.env.DOCKER_ELASTIC_PASSWORD
     }
   ],
   repositories: [
