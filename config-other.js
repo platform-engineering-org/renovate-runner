@@ -16,11 +16,11 @@ module.exports = {
   ],
   autodiscover: false,
   repositories: [
+    "lmilbaum/hyperconverged-cluster-operator",
     "crc-org/crc-cloud",
     "devfile/registry",
     "ralphbean/dnf-plugin-lockfile",
-    "kubevirt/hyperconverged-cluster-operator",
-    "lmilbaum/hyperconverged-cluster-operator"
+    "kubevirt/hyperconverged-cluster-operator"
   ],
   constraints: {
     go: "1.19"
