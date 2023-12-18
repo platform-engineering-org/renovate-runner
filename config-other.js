@@ -16,7 +16,6 @@ module.exports = {
   ],
   autodiscover: false,
   repositories: [
-    "lmilbaum/hyperconverged-cluster-operator",
     "crc-org/crc-cloud",
     "devfile/registry",
     "ralphbean/dnf-plugin-lockfile",
