@@ -18,8 +18,7 @@ module.exports = {
   repositories: [
     "crc-org/crc-cloud",
     "devfile/registry",
-    "ralphbean/dnf-plugin-lockfile",
-    "kubevirt/hyperconverged-cluster-operator"
+    "ralphbean/dnf-plugin-lockfile"
   ],
   constraints: {
     go: "1.19"
