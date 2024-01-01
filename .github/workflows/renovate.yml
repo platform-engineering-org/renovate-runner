@@ -15,7 +15,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b8ce565a2e98de1fec9696a76fba7beb01ec29b2 # v39.2.3
         with:
-          renovate-version: 37.108.1
+          renovate-version: 37.115.0
           configurationFile: config-platform-engineering-org.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -34,7 +34,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b8ce565a2e98de1fec9696a76fba7beb01ec29b2 # v39.2.3
         with:
-          renovate-version: 37.108.1
+          renovate-version: 37.115.0
           configurationFile: config-arcalot.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -52,7 +52,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b8ce565a2e98de1fec9696a76fba7beb01ec29b2 # v39.2.3
         with:
-          renovate-version: 37.108.1
+          renovate-version: 37.115.0
           configurationFile: config-centos.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -70,7 +70,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b8ce565a2e98de1fec9696a76fba7beb01ec29b2 # v39.2.3
         with:
-          renovate-version: 37.108.1
+          renovate-version: 37.115.0
           configurationFile: config-other.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -88,7 +88,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b8ce565a2e98de1fec9696a76fba7beb01ec29b2 # v39.2.3
         with:
-          renovate-version: 37.108.1
+          renovate-version: 37.115.0
           configurationFile: config-test.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
