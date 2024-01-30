@@ -19,7 +19,6 @@ module.exports = {
     "centos/.github",
     "centos/centos-bootc",
     "centos/centos-bootc-infra",
-    "centos/centos-bootc-dev",
-    "centos/centos-bootc-layered"
+    "centos/centos-bootc-dev"
   ]
 };
