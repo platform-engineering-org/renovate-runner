@@ -19,7 +19,9 @@ module.exports = {
     "crc-org/crc-cloud",
     "devfile/registry",
     "ralphbean/dnf-plugin-lockfile",
-    "kubevirt/hyperconverged-cluster-operator"
+    "kubevirt/hyperconverged-cluster-operator",
+    "virt-s1/bootc-workflow-test",
+    "containers/bootc"
   ],
   constraints: {
     go: "1.19"
