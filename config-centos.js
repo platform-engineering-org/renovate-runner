@@ -18,7 +18,6 @@ module.exports = {
   repositories: [
     "centos/.github",
     "centos/centos-bootc",
-    "centos/centos-bootc-infra",
     "centos/centos-bootc-dev"
   ]
 };
