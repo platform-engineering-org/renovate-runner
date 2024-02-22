@@ -15,5 +15,11 @@
       "depNameTemplate": "ghcr.io/renovatebot/renovate",
       "datasourceTemplate": "docker"
     }
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["endoflife-date"],
+      "matchPackageNames": ["fedora"]
+    }
   ]
 }
