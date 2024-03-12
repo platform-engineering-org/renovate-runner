@@ -6,25 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  renovate-platform-engineering-org:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      - name: Self-hosted Renovate
-        uses: renovatebot/github-action@c134f38c01867794a23c35e86660bd9609caf30c # v40.1.4
-        with:
-          renovate-version: 37.235.1
-          configurationFile: config-platform-engineering-org.js
-          token: ${{ secrets.RENOVATE_TOKEN }}
-          env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
-        env:
-          LOG_LEVEL: 'debug'
-          DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
-          DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-
-
   renovate-arcalot:
     runs-on: ubuntu-latest
 
