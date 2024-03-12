@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@8f6b0f762415909f60b0efb1817c4dee029ea806 # v40.1.1
+        uses: renovatebot/github-action@c134f38c01867794a23c35e86660bd9609caf30c # v40.1.4
         with:
-          renovate-version: 37.214.0
+          renovate-version: 37.235.1
           configurationFile: config-arcalot.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -31,9 +31,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@8f6b0f762415909f60b0efb1817c4dee029ea806 # v40.1.1
+        uses: renovatebot/github-action@c134f38c01867794a23c35e86660bd9609caf30c # v40.1.4
         with:
-          renovate-version: 37.214.0
+          renovate-version: 37.235.1
           configurationFile: config-centos.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -49,9 +49,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@8f6b0f762415909f60b0efb1817c4dee029ea806 # v40.1.1
+        uses: renovatebot/github-action@c134f38c01867794a23c35e86660bd9609caf30c # v40.1.4
         with:
-          renovate-version: 37.214.0
+          renovate-version: 37.235.1
           configurationFile: config-other.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -67,9 +67,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@8f6b0f762415909f60b0efb1817c4dee029ea806 # v40.1.1
+        uses: renovatebot/github-action@c134f38c01867794a23c35e86660bd9609caf30c # v40.1.4
         with:
-          renovate-version: 37.214.0
+          renovate-version: 37.235.1
           configurationFile: config-test.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
